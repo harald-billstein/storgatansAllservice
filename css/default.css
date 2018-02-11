@@ -1,0 +1,18 @@
+html,
+body {
+  height: 100%;
+}
+
+.section-top{
+    background: #222 url("/images/home.jpeg") center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#test{
+    background-color: aqua;
+    all: center;
+}
