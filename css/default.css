@@ -4,7 +4,7 @@ body {
 }
 
 .section-top{
-    background: #222 url("/images/home.jpeg") center center no-repeat;
+    background: #222 url("images/home.jpeg") center center no-repeat;
     background-size: cover;
     color: white;
     height: 100%;
