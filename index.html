@@ -4,16 +4,10 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<title>Storgatan Allservice</title>
-
-		<!-- Bootstrap -->
-		<link rel="stylesheet"
-			  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-			  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-			  crossorigin="anonymous">
-
-		<link rel="stylesheet" href="css/default.css"
+		<link rel="stylesheet" href="assets/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/default.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 			  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,15 +19,20 @@
 	<html>
 		<body>
 			<div class="section-top">
-				<div class="col-sm-10 offset-1">
-					<div class="jumbotron text-center">
-						<h1>Storgatans Allservice</h1>
-						<p>Din städfirma!</p>
+				<div class="container">
+					<div class="col-sm-6 offset-3">
+						<div class="jumbotron text-center">
+							<h1>Storgatans Allservice</h1>
+							<p>Din städfirma!</p>
+							<a href="#services" class="btn btn-circle js-scroll-trigger">
+                			<i id="down-arrow" class="fas fa-angle-double-down"></i>
+              				</a>
+						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="services"> 
+			<div class="services" id="services"> 
 				<div class="container text-center">
 					<div class="row offset-1">
 						<div class="col-sm-5">
@@ -100,10 +99,10 @@
 				</div>
 			</div>
 
-			<footer id="footer">
+			<footer id="footer" class="footer">
 				<div class="row">
 					<div class="col-sm-4 offset-2">
-						<p>Storgatans Allservice</p>
+						<p>Storgatans allservice AB</p>
 					</div>
 					<div class="col-sm-4 offset-2">
 						<p>Telefon 0413-40 40 07</p>
@@ -126,11 +125,22 @@
 						<p>Mail info@storgatans-hemservice.se</p>
 					</div>
 				</div>
+				<div class="row">
+					<div class="col-sm-4 offset-2">
+						<p>Org.nummer: 559053-4599</p>
+					</div>
+					<div class="col-sm-4 offset-2">
+						<p>F-skattsedel och ansvarsförsäkring</p>
+					</div>
+					
+					
+					
+				</div>
 			</footer>
 
 			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 			<!-- Include all compiled plugins (below), or include individual files as needed -->
-			<script src="js/bootstrap.min.js"></script>
+			<script src="assets/bootstrap-4.0.0-dist/js/js/bootstrap.min.js"></script>
 		</body>
 	</html>
