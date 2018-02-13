@@ -1,6 +1,6 @@
 html,
 body {
-  height: 100%;
+  	height: 100%;
 }
 .card {
 	border: 0;
@@ -25,19 +25,33 @@ body {
 .card{
 	padding: 20px 20px 20px 20px;
 }
+.services-links{
+	color: rgba(0, 0, 0, 1);
+}
+.services-links:hover{
+	text-decoration-line: none;
+	color: rgba(209, 56, 153, 1);
+}
 .footer-img{
 	background: url("../images/home.jpeg") bottom center no-repeat;
 	background-size: cover;
 }
 #footer{
 	padding-top: 20px;
-	color: white;
+	color: rgba(255, 255, 255, 1);
 	font-size: 10px;
+	font-weight: bold;
 } 
-
+.footer-links{
+	color: rgba(255, 255, 255, 1);
+}
+.footer-links:hover{
+	color: rgba(209, 56, 153, 1);
+	text-decoration-line: none;
+}
 #facebook{
 	font-size: 2.5em;
-	color: white;
+	color: rgba(255, 255, 255, 1);
 }
 #facebook:hover{
 	color: rgba(209, 56, 153, 1);
@@ -47,5 +61,26 @@ body {
 	color: gray;
 }
 #down-arrow:hover{
-	color: white;
-} 
+	color: rgba(255, 255, 255, 1);
+}
+.developer-background{
+	background-color: black;
+	font-size: 0.5em;
+	width: 100%;
+	color: rgba(255, 255, 255, 1);
+}
+.developer-link{
+	color: rgba(255, 255, 255, 1);
+}
+.developer-link:hover{
+	color: darkslategray;
+	text-decoration-line: none;
+}
+#mer-info{
+	color: rgba(0, 0, 0, 1);
+	text-decoration-line: none;
+}
+#mer-info:hover{
+	color: rgba(209, 56, 153, 1);
+	text-decoration-line: none;
+}
