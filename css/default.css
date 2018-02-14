@@ -2,8 +2,14 @@ html,
 body {
   	height: 100%;
 }
+h1{
+		font-size: 4em;
+}
 h2{
-	font-size: 1em;
+	font-size: 2em;
+}
+.card-title{
+	margin-top: 1em;
 }
 .card {
 	border: 0;
@@ -12,18 +18,21 @@ h2{
 	color: rgba(209, 56, 153, 1);
 }
 .section-top{
-    background: url("../images/home.jpeg") center center no-repeat;
+    background: url("../images/home.jpeg")  center no-repeat;
     background-size: cover;
+	padding-top: 400px;
     height: 100%;
     text-align: center;
     display: flex;
     align-items: center;
 }
 .jumbotron{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 255, 255, 0.4);
+	padding: 2em;
 }
 .services{
-	padding-bottom: 100px;
+	padding-top: 4em;
+	padding-bottom: 4em;
 }
 .card{
 	padding: 20px 20px 20px 20px;
@@ -37,31 +46,33 @@ h2{
 	font-weight: bold;
 }
 .footer-img{
-	background-color: rgba(0, 0, 0, 1);
+	background-color: rgba(128,128,128,1);
 }
 #footer{
 	padding-top: 20px;
-	color: rgba(255, 255, 255, 1);
-	font-size: 10px;
+	color: rgba(0, 0, 0, 1);
+	font-size: 0.8em;
 	font-weight: bold;
 } 
 .footer-links{
-	color: rgba(255, 255, 255, 1);
+	color: rgba(0, 0, 0, 1);
 }
 .footer-links:hover{
 	color: rgba(209, 56, 153, 1);
 	text-decoration-line: none;
-	font-weight: bolder;
 }
 .social-media{
 	font-size: 2.5em;
-	color: rgba(255, 255, 255, 1);
-	margin-bottom: 90px;
+	color: rgba(0, 0, 0, 1);
+	margin-bottom: 2em;
+	margin-left: 0.1em;
+	margin-right: 0.1em;
 }
 .social-media:hover{
 	color: rgba(209, 56, 153, 1);
 }
 #down-arrow{
+	margin-top: 0.7em;
 	font-size: 1.5em;
 	color: rgba(128,128,128,1);
 }
@@ -90,6 +101,7 @@ h2{
 .mer-info{
 	color: rgba(0, 0, 0, 1);
 	text-decoration-line: none;
+	font-weight: bold
 }
 .mer-info:hover{
 	color: rgba(209, 56, 153, 1);
